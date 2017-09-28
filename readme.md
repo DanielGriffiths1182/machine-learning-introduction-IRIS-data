@@ -6,8 +6,8 @@
 
 *Thanks to Jason Brownlee's blog! (this was a great, and simple introduction) - Daniel Griffiths*
 
-1. > 
-	`Python`
+1.
+`Python`
 
 Check the versions of libraries
 2. >	
