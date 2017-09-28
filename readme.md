@@ -8,10 +8,12 @@
 
 1. 
 
+
 	`# start Python`
 	`Python`
 
 2. 
+
 
 	`# version checks`
 	`import sys
@@ -28,7 +30,8 @@
   	print('sklearn: {}'.format(sklearn.__version__))`
 
 3. 
-	
+
+
 	`# imports`
 	`import pandas from pandas.tools.plotting import scatter_matrix`
   	`import matplotlib.pyplot as plt`
