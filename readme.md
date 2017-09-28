@@ -9,7 +9,6 @@
 1. > `Python`
 
 2. > `# Check the versions of libraries
-
   	import sys
   	print('Python: {}'.format(sys.version))
 
