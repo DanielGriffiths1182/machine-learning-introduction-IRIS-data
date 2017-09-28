@@ -6,12 +6,14 @@
 
 *Thanks to Jason Brownlee's blog! (this was a great, and simple introduction) - Daniel Griffiths*
 
-1. 	Load Python
+1. 
 
+	`# start Python`
 	`Python`
 
-2. 	Version Check
+2. 
 
+	`# version checks`
 	`import sys
   	print('Python: {}'.format(sys.version))`
   	`import scipy
@@ -25,8 +27,9 @@
 	`import sklearn
   	print('sklearn: {}'.format(sklearn.__version__))`
 
-3. 	Imports
-
+3. 
+	
+	`# imports`
 	`import pandas from pandas.tools.plotting import scatter_matrix`
   	`import matplotlib.pyplot as plt`
   	`from sklearn import model_selection`
