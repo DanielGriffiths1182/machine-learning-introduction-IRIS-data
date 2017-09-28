@@ -6,11 +6,11 @@
 
 *Thanks to Jason Brownlee's blog! (this was a great, and simple introduction) - Daniel Griffiths*
 
-1. 
+1. 	Load Python
 
 	`Python`
 
-2. 	
+2. 	Version Check
 
 	`import sys
   	print('Python: {}'.format(sys.version))`
@@ -25,7 +25,7 @@
 	`import sklearn
   	print('sklearn: {}'.format(sklearn.__version__))`
 
-3. 
+3. 	Imports
 
 	`import pandas from pandas.tools.plotting import scatter_matrix`
   	`import matplotlib.pyplot as plt`
@@ -40,13 +40,19 @@
   	`from sklearn.naive_bayes import GaussianNB`
   	`from sklearn.svm import SVC`
 
-4. > `# Load dataset
-  url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
-  names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
-  dataset = pandas.read_csv(url, names=names)`
+4.
 
-5. > `# shape
-  print(dataset.shape)`
+	`# Load dataset`
+  	`url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"`
+  	`names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']`
+  	`dataset = pandas.read_csv(url, names=names)`
+
+5.
+
+	`# shape`
+  	`print(dataset.shape)`
+	
+	
 
 6. > `# head
   print(dataset.head(20))`
