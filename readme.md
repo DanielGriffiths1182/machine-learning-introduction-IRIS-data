@@ -8,23 +8,23 @@
 
 1. > `Python`
 
-2. > `# Check the versions of libraries
-  	import sys
-  	print('Python: {}'.format(sys.version))
+Check the versions of libraries
+2. >	`import sys
+  	print('Python: {}'.format(sys.version))`
 
-  	import scipy
-  	print('scipy: {}'.format(scipy.__version__))
+  	`import scipy
+  	print('scipy: {}'.format(scipy.__version__))`
 
-  	import numpy
-  	print('numpy: {}'.format(numpy.__version__))
+  	`import numpy
+  	print('numpy: {}'.format(numpy.__version__))`
 
-	import matplotlib
-  	print('matplotlib: {}'.format(matplotlib.__version__))  
+	`import matplotlib
+  	print('matplotlib: {}'.format(matplotlib.__version__))`
 
-	import pandas
-  	print('pandas: {}'.format(pandas.__version__))
+	`import pandas
+  	print('pandas: {}'.format(pandas.__version__))`
 
-	import sklearn
+	`import sklearn
   	print('sklearn: {}'.format(sklearn.__version__))`
 
 3. > `# Load libraries
